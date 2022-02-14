@@ -1,7 +1,7 @@
 document.getElementById("nombre").addEventListener("blur", (evento) => {
     const input = evento.currentTarget;
     const txtNombre = input.value;
-
+    
     // let o const - formas recomendadas de variables o constantes
     const feedbackNombre = document.getElementById("feedback-nombre");
 
