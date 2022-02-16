@@ -11,13 +11,15 @@
     <body>
 
         <div class="container">
-            <h1>Formulario de Contacto</h1>
+          <br>  
+          <h1>Formulario de Contacto</h1>
 
             <form action="contacto.html" id="formulario-contacto" class="row g-3">
+                
                 <div class="col-md-6">
                   <label for="nombre" class="form-label">Nombre</label>
                   <input type="text" class="form-control" id="nombre">
-                  <div id="feedback-nombre" class="">
+                  <div id="feedback-nombre" class="valid-feedback">
                   </div>
                 </div>
 
@@ -25,34 +27,33 @@
                 <div class="col-md-6">
                   <label for="apellido" class="form-label">Apellido</label>
                   <input type="text" class="form-control" id="apellido">
-                  <div class="valid-feedback">
-                    Looks good!
+                  <div id="feedback-apellido" class="valid-feedback">
                   </div>
                 </div>
 
                 <div class="col-md-6">
                     <label for="email" class="form-label">Email</label>
                     <input type="text" class="form-control" id="email">
-                    <div class="valid-feedback">
-                      Looks good!
+                    <div id="feedback-email" class="valid-feedback">
+                     
                     </div>
                   </div>
                   <div class="col-md-6">
-                    <label for="validationServer02" class="form-label">Teléfono</label>
-                    <input type="text" class="form-control" id="validationServer02">
-                    <div class="valid-feedback">
-                      Looks good!
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="text" class="form-control" id="telefono">
+                    <div id="feedback-telefono" class="valid-feedback">
+                     
                     </div>
                   </div>
 
                 <div class="col-md-12">
                   <label for="validationServer04" class="form-label">Sucursal</label>
-                  <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback">
-                    <option selected disabled value="">Escoge...</option>
-                    <option>Santiago</option>
+                  <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback">
+                    <option selected disabled value="">Selecciona una sucursal</option>
                     <option>Valparaíso</option>
+                    <option>Santiago</option>
                   </select>
-                  <div id="validationServer04Feedback" class="invalid-feedback">
+                  <div id="validationServer04Feedback" class="valid-feedback">
                     Please select a valid state.
                   </div>
                 </div>
@@ -74,13 +75,13 @@
                 </div>
                 <div class="col-12">
                     <label for="validationTextarea" class="form-label">Mensaje</label>
-                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                    <textarea class="form-control" id="validationTextarea" placeholder="Escriba un comentario" required></textarea>
                     <div class="invalid-feedback">
-                      Please enter a message in the textarea.
+                      Porfavor escriba un mensaje en el area de texto.
                     </div>
                 </div>
                 <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Submit form</button>
+                  <button class="btn btn-primary" type="submit">Enviar</button>
                 </div>
               </form>
         </div>
