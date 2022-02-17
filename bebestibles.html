@@ -1,12 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <title> Fuente de soda </title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
     
+    <div class="container">
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo fuente suiza"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Carta
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="sandwiches.html">Sandwiches</a></li>
+                      <li><a class="dropdown-item" href="bebestibles.html">Bebestibles</a></li>
+                      <li><a class="dropdown-item" href="postres.html">Postres</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="historia.html">Historia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html" >Contactos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html" >Ingresar</a>
+                  </li>
+                  
+                </ul>
+             
+              </div>
+            </div>
+                 </nav>
+        </header>
+
+        <!--BANNER PAGINA BEBESTIBLES -->
+        <br><br>
+        <section id="bannerHistoria">
+
+            <img class="img-fluid" src="img/bannerbebestibles.png" alt="bannerbebestibles">
+
+        </section>
+        <br> <br> <br>
+        
+        
+        <section id="bebestibles">
+            <div class="col-xs-12 col-lg-12">
+                <h1>Cervezas Artesanales</h1>
+                <br> <hr>
+                <br> <br>
+            
+                <div class="container">
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                         <img class="img-fluid" src="img/guayacanstout.jpg" alt="cerveza1" width="250px">
+                      </div>
+                      <div class="col-8">
+                        <h2>Guayacan Stout  </h2>
+                        <p> De color negro profundo, destacan aromas a café de trigo y cebada. En boca es
+                    cremosa, de gran volumen y carácter, sabor a chocolate. </p>
+                    <br>
+                        <h3>Precio: $1.800</h3>
+                      </div>
+                    </div>
+                </div>
+                <hr> <br>
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-4">
+                            <img class="img-fluid" src="img/volcanes.png" alt="cerveza2" width="250px" >
+                        </div>
+                        <div class="col-8">
+                            <h2>Volcanes Premium Lager </h2>
+                            <p>De color dorado y intensidad media con aromas a piel de naranja, cebada 
+                                  y duraznos frescos, En la boca es fresca, ligera, de burbujas cremosas y 
+                                  amargor balanceado.
+                            </p>
+                            <br>
+                            <h3>Precio: $1.600</h3>
+                        </div>
+                    </div>
+                </div>
+                <br> <br> <br>
+            <div class="col-xs-12 col-lg-12">
+                    <h1>Bebidas</h1>
+                    <br> <hr>
+                    <br> <br>
+
+                <div class="container">
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                         <img class="img-fluid" src="img/cocacola.jpg" alt="bebida1" width="250px" >
+                      </div>
+                      <div class="col-8">
+                        <h2> Coca-cola </h2>
+                        <p>Sus ingredientes principales son azúcar, aceites cítricos (naranja, lima o cáscara de limón), 
+                            canela, vainilla y un saborizante ácido, los cuales en su justa medida y proporción se diluyen en 
+                            agua carbonatada.
+                        </p>
+                        <br>
+                            <h3>Precio: $1.100</h3>
+                      </div>
+                    </div>
+                </div>
+                <hr> <br>
+                <div class="container">
+                    <div class="row justify-content-start">
+                      <div class="col-4">
+                         <img class="img-fluid" src="img/sprite.jpg" alt="bebida2" width="250px" >
+                      </div>
+                      <div class="col-8">
+                        <h2> Sprite </h2>
+                        <p>Sprite es una bebida de lima-limón ligera, transparente y chispeante con un gran poder refrescante.
+                        </p>
+                        <br>
+                            <h3>Precio: $1.100</h3>
+                      </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+            
+
+            
+
+        
+
+         
+            
+
+          <footer class="bg-dark pt-3 pb-3">
+          <div class="row">
+              <div class="col-4">
+                <div class="p-2 ps-5">
+                  <h3 class="text-white">Fuente Suiza</h3>
+                  <p class="text-white">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                  </p>
+                </div>                  
+              </div>
+              <div class="col-4">
+                <div class="p-2 text-center">
+                  <h3 class="text-white">Menú</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                      <a href="#">Nosotros</a>
+                    </li>
+                    <li>
+                      <a href="#">Carta</a>
+                    </li>
+                    <li>
+                      <a href="#">Historia</a>
+                    </li>
+                    <li>
+                      <a href="#">Sucursales</a>
+                    </li>
+                    <li>
+                      <a href="contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>                  
+              </div>
+              <div class="col-4">
+                <div class="p-2">
+                  <h3 class="text-white">Sucursales</h3>
+                  <p class="text-white">
+                    Los Alerces 123, Ñuñoa, Stgo<br />
+                    Tel: 56 2 2244 6699<br />
+                  </p>
+                  <hr class="text-white" />
+                  <p class="text-white">
+                    Los Ñandúes, Valpo<br />
+                    Tel: 56 9 8899 6699<br />         
+                  </p>  
+                </div>                                           
+              </div>
+          </div>
+      </footer>        
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"> </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"> </script>
 </body>
 </html>
